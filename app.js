@@ -23,7 +23,7 @@ app.use(bodyParser.json());
 app.use(express.static('public'))
 
 // app listen to port
-app.listen(port, '::', () => {
+app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
 });
 
